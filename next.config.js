@@ -6,6 +6,10 @@ const nextConfig = {
   images: {
     domains: ['seyyone.com'],
   },
+  experimental: {
+    workerThreads: false,
+    cpus: 1
+  }
 }
 
 module.exports = nextConfig
