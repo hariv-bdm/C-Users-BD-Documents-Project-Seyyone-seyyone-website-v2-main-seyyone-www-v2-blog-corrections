@@ -11,8 +11,10 @@ export interface JobPosition {
     experience: string;
     requirements: string[];
     responsibilities: string[];
+    skills?: string[];
     benefits: string[];
     postedDate: string;
+    seniority: string;
 }
 
 export const jobPositions: JobPosition[] = jobsData as JobPosition[];
